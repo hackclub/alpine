@@ -9,13 +9,13 @@ import * as styles from "../components/index.module.css"
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-      
+ 
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Alpine
       </h1>
       
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+      
+        
       
     </div>
     

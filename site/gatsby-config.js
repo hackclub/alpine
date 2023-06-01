@@ -39,5 +39,18 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Manrope`,
+            file: `https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"`,
+          },
+        ],
+      },
+    }
   ],
 }
