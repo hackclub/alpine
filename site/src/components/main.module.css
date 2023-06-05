@@ -1,0 +1,18 @@
+body {
+    background-color: #283618;
+    margin: 0;
+}
+.container {
+    
+}
+.header {
+    color: #FEFAE0;
+    font-family: 'Manrope','sans-serif';
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2em;
+}
+
+h1 {
+    text-shadow: 0 0 10px #606C38, 0 0 10px #606C38;
+}
