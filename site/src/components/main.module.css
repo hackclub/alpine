@@ -1,18 +1,54 @@
 body {
-    background-color: #283618;
+    background-color: #b7e4c7;
     margin: 0;
+    font-family: 'Manrope','sans-serif';
+    color: #2d6a4f;
 }
 .container {
     
 }
+
+.svg1 {
+
+}
+
 .header {
-    color: #FEFAE0;
-    font-family: 'Manrope','sans-serif';
+    
+    
     font-weight: 400;
     text-align: center;
     padding-top: 2em;
+    position: relative;
 }
 
 h1 {
-    text-shadow: 0 0 10px #606C38, 0 0 10px #606C38;
+    text-shadow: 0px 4px 0px #1b4332;
+}
+.info h2 {
+    text-align: center;
+}
+
+.info p{
+    padding: 0px 20px;
+    line-height: 30px;
+}
+.info {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+.spacer50 {
+    height: 50px;
+}
+
+.hero {
+    background-color: #2d6a4f;
+    color: #b7e4c7;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
