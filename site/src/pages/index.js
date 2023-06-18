@@ -35,7 +35,6 @@ const IndexPage = () => {
           <p>This event is open to Cadettes, Seniors, and Ambassadors. Girl Scouts can sign up on the GSGNY registration page.</p>
         </div>
 
-
         <button style={{fontSize: '1.25rem'}}>Do I need prior coding experience to participate?</button>
         <div className={panel}>
         <p>Hackers of all skill levels, including beginners, are welcome to join! We will be hosting programming workshops and other introductory events to help you get started, examples of which you can check out here!</p>
