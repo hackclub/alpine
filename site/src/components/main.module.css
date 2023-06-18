@@ -13,11 +13,26 @@ body {
 }
 
 .header {    
-    background-image: url(https://cloud-cfhimf1x7-hack-club-bot.vercel.app/0kmm_6403.jpg);
+    
     font-weight: 400;
     text-align: center;
     padding-top: 2em;
-    position: relative;
+
+}
+
+.header::before {
+    content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+
+            background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .5 !important;
 }
 
 h1 {
