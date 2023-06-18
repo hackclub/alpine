@@ -1,5 +1,5 @@
 import * as React from "react"
-import { container, header, info, svg1, hero, spacer50 } from '../components/main.module.css'
+import { container, header, info, svg1, hero, spacer50, accordion, panel } from '../components/main.module.css'
 import Icon from "../assets/mountainsblue.svg"
 
 const IndexPage = () => {
@@ -25,7 +25,65 @@ const IndexPage = () => {
         <p>We're providing all meals, some cool swag, and prizes!
         </p>
       </div>
+      <div className={info}>
+        <h2 style={{fontSize: '3rem', marginTop: '100px'}}>FAQs</h2>
+      </div>
+
+      <div className={accordion}>
+      <button style={{fontSize: '1.25rem'}}>Am I eligible to participate in Alpine?</button>
+        <div className={panel}>
+          <p>This event is open to Cadettes, Seniors, and Ambassadors. Girl Scouts can sign up on the GSGNY registration page.</p>
+        </div>
+
+
+        <button style={{fontSize: '1.25rem'}}>Do I need prior coding experience to participate?</button>
+        <div className={panel}>
+        <p>Hackers of all skill levels, including beginners, are welcome to join! We will be hosting programming workshops and other introductory events to help you get started, examples of which you can check out here!</p>
+        </div>
+
+        <button style={{fontSize: '1.25rem'}}>What can I make at Alpine?</button>
+        <div className={panel}>
+        <p>Girl Scouts can create projects for their Highest Awards! You
+                  can create a website, an app, or anything else that will help
+                  you take action in your community-whether that's promoting a
+                  cause, educating about an issue, or solving a problem. As a
+                  bonus, everyone will take home a special patch from this day!</p>
+        </div>
+
+        <button style={{fontSize: '1.25rem'}}>How much does it cost to attend?</button>
+        <div className={panel}>
+        <p>This event is free to Hack Clubbers. Girl Scouts should reach
+                  out to{' '}
+                  <a
+                    href="mailto:email@email.org"
+                    target="_blank"
+                    rel="noreferrer">
+                    email@email.org
+                  </a>{' '}
+                  to learn more.</p>
+        </div>
+
+        <button style={{fontSize: '1.25rem'}}>What do I need to bring to Alpine?</button>
+        <div className={panel}>
+        <p>Bring a laptop if you have one, and also bring a water bottle!
+                  Lunch and snacks will be provided by Girl Scouts.</p>
+        </div>
+
+        <button style={{fontSize: '1.25rem'}}>How secure is this event?</button>
+        <div className={panel}>
+        <p>Alpine will be supervised by background-checked staff and overseen by
+            security staff 24/7.</p>
+        </div>
+
+        <button style={{fontSize: '1.25rem'}}>Who can my parents/guardians reach out to with their concerns?</button>
+        <div className={panel}>
+        <p>They can reach out to us at{' '}
+            <a href="mailto:horizon@hackclub.com">horizon@hackclub.com</a>{' '}
+            and we'll make sure to answer all their questions.</p>
+        </div>
+      </div>
     </div>
+    
     
   )
 }

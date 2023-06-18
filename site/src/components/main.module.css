@@ -52,3 +52,40 @@ h1 {
     text-align: center;
     flex-direction: column;
 }
+
+.accordion button {
+    background-color: #2d6a4f;
+    color: #b7e4c7;
+    border: 2px solid black;
+    border-color:black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion button:hover {
+    background-color: #51a37e;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #2d6a4f;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion button:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
