@@ -1,8 +1,8 @@
 body {
-    background-color: #b7e4c7;
+    background-color: #D7FDEC;
     margin: 0;
     font-family: 'Manrope','sans-serif';
-    color: #2d6a4f;
+    color: #0A8754;
 }
 .container {
     
@@ -12,31 +12,37 @@ body {
 
 }
 
+.header h1 {
+   
+}
+
 .header {    
     
     font-weight: 400;
     text-align: center;
     padding-top: 2em;
-
+    
 }
+
 
 .header::before {
     content: "";
-            position: absolute;
-            top: 0px;
-            right: 0px;
-            bottom: 0px;
-            left: 0px;
-
-            background-image: url(https://cloud-cfhimf1x7-hack-club-bot.vercel.app/0kmm_6403.jpg);
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(https://cloud-cfhimf1x7-hack-club-bot.vercel.app/0kmm_6403.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: .5 !important;
+    opacity: .25 !important;
+    /* filter: grayscale(60%); */
 }
 
 h1 {
-    text-shadow: 0px 4px 0px #1b4332;
+    text-shadow: 0px 6px 0px #1b4332;
 }
 .info h2 {
     text-align: center;
@@ -58,8 +64,8 @@ h1 {
 }
 
 .hero {
-    background-color: #2d6a4f;
-    color: #b7e4c7;
+    background-color: #0A8754;
+    color: #D7FDEC;
     font-size: 1.25rem;
     display: flex;
     justify-content: center;
@@ -68,8 +74,8 @@ h1 {
 }
 
 .accordion button {
-    background-color: #2d6a4f;
-    color: #b7e4c7;
+    background-color: #0A8754;
+    color: #D7FDEC;
     border: 2px solid black;
     border-color:black;
     cursor: pointer;
@@ -87,7 +93,7 @@ h1 {
 
 .panel {
     padding: 0 18px;
-    background-color: #2d6a4f;
+    background-color: #0A8754;
     display: none;
     overflow: hidden;
 }

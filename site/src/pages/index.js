@@ -6,11 +6,12 @@ const IndexPage = () => {
   return (
     <div className={container}>
       <div className={header}>
-        <h3 style={{fontSize: '1.75rem', margin:'0'}}>Hack Club and Girl Scouts of Utah present</h3>
-        <h1 style={{fontSize: '14rem', margin:'0'}}>Alpine</h1>
+        <h3 style={{fontSize: '1.8rem', margin:'0'}}>Hack Club and Girl Scouts of Utah present</h3>
+        <h1 style={{fontSize: '16rem', margin:'0'}}>Alpine</h1>
         
-        <h3 style={{fontSize: '2rem', letterSpacing: '2px', marginTop: '10px'}}>July 15th, 2023</h3>
-        <Icon className={svg1}/>
+        <h3 style={{fontSize: '2.5rem', letterSpacing: '2px', marginTop: '10px'}}>July 15th, 2023</h3>
+        <div className={spacer50}></div>
+        <div className={spacer50}></div>
       </div>
       <div className={info}>
         <h2>Build your own app, website, or game and make new friends!</h2>
