@@ -109,3 +109,7 @@ h1 {
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+.icons {
+    float: right;
+}
