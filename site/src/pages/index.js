@@ -1,5 +1,5 @@
 import * as React from "react"
-import { container, header, info, svg1, hero, spacer50, accordion, panel } from '../components/main.module.css'
+import { container, header, info, svg1, hero, spacer50, accordion, panel, icons } from '../components/main.module.css'
 import Icon from "../assets/mountainsblue.svg"
 
 const IndexPage = () => {
