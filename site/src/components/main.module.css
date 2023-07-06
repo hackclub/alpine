@@ -24,6 +24,11 @@ body {
     
 }
 
+@media only screen and (max-width: 750px) {
+    .header {
+        font-size: 4rem;
+    }
+}
 
 .header::before {
     content: "";
