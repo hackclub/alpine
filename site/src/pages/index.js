@@ -7,10 +7,10 @@ const IndexPage = () => {
     <>
     <div className={container}>
       <div className={header}>
-        <h3 style={{fontSize: '1.8rem', margin:'0'}}>Hack Club presents</h3>
-        <h1 style={{fontSize: '16rem', margin:'0'}}>Alpine</h1>
+        <h3 style={{margin:'0'}}>Hack Club presents</h3>
+        <h1 style={{margin:'0'}}>Alpine</h1>
         
-        <h3 style={{fontSize: '2.5rem', letterSpacing: '2px', marginTop: '10px'}}>July 15th, 2023</h3>
+        <h4 style={{letterSpacing: '2px', marginTop: '10px'}}>July 15th, 2023</h4>
         <div className={spacer50}></div>
         <div className={spacer50}></div>
       </div>
