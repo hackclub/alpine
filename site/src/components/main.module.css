@@ -53,11 +53,13 @@ h1 {
 }
 .info h2 {
     text-align: center;
+    margin-top: 0px;
 }
 
 .info p{
     padding: 0px 20px;
     line-height: 30px;
+    margin-top: 50px;
 }
 .info {
     font-size: 1.25rem;
@@ -105,7 +107,7 @@ h1 {
 
 @media only screen and (max-width: 480px) {
     .header h1 {
-        font-size: 7.5rem;
+        font-size: 7rem;
         text-shadow: 0px 4px 0px #1b4332;
     }
     .header h3 {
