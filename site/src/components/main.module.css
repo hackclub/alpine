@@ -87,28 +87,10 @@ h1 {
     transition: 0.4s;
 }
 
-.active, .accordion button:hover {
-    background-color: #51a37e;
-}
-
 .panel {
     padding: 0 18px;
-    background-color: #0A8754;
-    display: none;
-    overflow: hidden;
+    text-align: center;
 }
-
-.accordion button:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-  }
-
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
 
 .icons {
     float: right;
