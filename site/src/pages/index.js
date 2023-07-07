@@ -1,5 +1,5 @@
 import * as React from "react"
-import { container, header, info, svg1, hero, spacer50, accordion, panel, icons, register } from '../components/main.module.css'
+import { container, header, info, svg1, hero, spacer50, accordion, panel, icons, register, herop, spacer60 } from '../components/main.module.css'
 import Icon from "../assets/mountainsblue.svg"
 
 const IndexPage = () => {
@@ -24,11 +24,11 @@ const IndexPage = () => {
           <br></br>
           This event is organized entirely by high school coders just like you. Alpine is fully open source, and funded and run by the Hack Club community. 
         </p>
-        <div className={spacer50}></div>
+        <div className={spacer60}></div>
       </div>
       <div className={hero}>
       <h2 style={{fontSize: '2.5rem'}}>Join us for a Saturday full of fun, food, and swag!</h2>
-        <p style={{fontSize: '1.5rem'}}>We're providing breakfast, lunch, and dinner and lots of cool swag! Register today to join us July 15th!
+        <p className={herop} style={{fontSize: '1.5rem'}}>We're providing breakfast, lunch, and dinner and lots of cool swag! Register today to join us July 15th!
         </p>
       </div>
       <div className={info}>

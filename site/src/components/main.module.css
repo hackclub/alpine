@@ -77,6 +77,9 @@ button {
 .spacer50 {
     height: 50px;
 }
+.spacer60 {
+    height: 60px;
+}
 
 .register {
     font-size: 1.5rem;
@@ -141,14 +144,28 @@ a {
         margin-top: 1rem;
     }
     .header h4 {
+        font-size: 1.75rem;
         margin-bottom: 1rem;
     }    
     .header h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }    
+    .spacer50 {
+        height: 150px;
+    }
+    h2 {
+        font-size: 1.35rem;
+    }
+    .hero p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     p {
         font-size: 1.25rem;
+    }
+    .info p{
+        width: 70%;
     }
 }
 
