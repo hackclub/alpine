@@ -1,5 +1,5 @@
 import * as React from "react"
-import { container, header, info, svg1, hero, spacer50, accordion, panel, icons } from '../components/main.module.css'
+import { container, header, info, svg1, hero, spacer50, accordion, panel, icons, register } from '../components/main.module.css'
 import Icon from "../assets/mountainsblue.svg"
 
 const IndexPage = () => {
@@ -10,21 +10,25 @@ const IndexPage = () => {
         <h3 style={{margin:'0'}}>Hack Club presents</h3>
         <h1 style={{margin:'0'}}>Alpine</h1>
         
-        <h4 style={{letterSpacing: '2px', marginTop: '10px'}}>July 15th, 2023</h4>
+        <h4 style={{letterSpacing: '2px', marginTop: '10px'}}>July 15 | 9am-7pm | Bill Offices</h4>
+        <a href="http://hack.af/alpine" target="_blank" className={register}>REGISTER!</a>
         <div className={spacer50}></div>
         <div className={spacer50}></div>
       </div>
       <div className={info}>
-        <h2>Build your own app, website, or game and make new friends!</h2>
+        <h2 style={{fontSize: '2.5rem'}}>Build your own app, website, or game and make new friends!</h2>
         <p>Alpine is a one-day hackathon, which is an event where participants gather to code projects,
-          learn new things, and have fun! You don't need any coding experience to "hack" with us. We're not actually
-          "hackers," we just love to code and share our projects.
+          learn new things, and have fun! You don't need any coding experience to "hack" with us. At Alpine, we're not actually
+          "hackers," we just love to code and share our projects! 
+          <br></br>
+          <br></br>
+          This event is organized entirely by high school coders just like you. Alpine is fully open source, and funded and run by the Hack Club community. 
         </p>
         <div className={spacer50}></div>
       </div>
       <div className={hero}>
-      <h2>Join us for a Saturday full of fun, food, and swag!</h2>
-        <p>We're providing all meals, some cool swag, and prizes!
+      <h2 style={{fontSize: '2.5rem'}}>Join us for a Saturday full of fun, food, and swag!</h2>
+        <p style={{fontSize: '1.5rem'}}>We're providing breakfast, lunch, and dinner and lots of cool swag! Register today to join us July 15th!
         </p>
       </div>
       <div className={info}>
@@ -32,54 +36,43 @@ const IndexPage = () => {
       </div>
 
       <div className={accordion}>
-      <button style={{fontSize: '1.25rem'}}>Am I eligible to participate in Alpine?</button>
+      <button style={{fontSize: '1.5rem'}}>Am I eligible to participate in Alpine?</button>
         <div className={panel}>
-          <p>This event is open to Cadettes, Seniors, and Ambassadors. Girl Scouts can sign up on the GSGNY registration page.</p>
+          <p>This event is open to anyone of any gender from 7-12th grade.</p>
         </div>
 
-        <button style={{fontSize: '1.25rem'}}>Do I need prior coding experience to participate?</button>
+        <button style={{fontSize: '1.5rem'}}>Do I need prior coding experience to participate?</button>
         <div className={panel}>
-        <p>Hackers of all skill levels, including beginners, are welcome to join! We will be hosting programming workshops and other introductory events to help you get started, examples of which you can check out here!</p>
+        <p>Hackers of all skill levels, including beginners, are welcome to join! We will be hosting programming workshops to help you get started!</p>
         </div>
 
-        <button style={{fontSize: '1.25rem'}}>What can I make at Alpine?</button>
+        <button style={{fontSize: '1.5rem'}}>What can I make at Alpine?</button>
         <div className={panel}>
-        <p>Girl Scouts can create projects for their Highest Awards! You
-                  can create a website, an app, or anything else that will help
-                  you take action in your community-whether that's promoting a
-                  cause, educating about an issue, or solving a problem. As a
-                  bonus, everyone will take home a special patch from this day!</p>
+        <p>Alpine is a hackathon, which means you'll be spending the day making your very own project to present at the project showcase.
+            You can make anything, from a website, a game, an app, or whatever you'd like that involves code!
+        </p>
         </div>
 
-        <button style={{fontSize: '1.25rem'}}>How much does it cost to attend?</button>
+        <button style={{fontSize: '1.5rem'}}>How much does it cost to attend?</button>
         <div className={panel}>
-        <p>This event is free to Hack Clubbers. Girl Scouts should reach
-                  out to{' '}
-                  <a
-                    href="mailto:email@email.org"
-                    target="_blank"
-                    rel="noreferrer">
-                    email@email.org
-                  </a>{' '}
-                  to learn more.</p>
+        <p>This event is free to all students.</p>
         </div>
 
-        <button style={{fontSize: '1.25rem'}}>What do I need to bring to Alpine?</button>
+        <button style={{fontSize: '1.5rem'}}>What do I need to bring to Alpine?</button>
         <div className={panel}>
-        <p>Bring a laptop if you have one, and also bring a water bottle!
-                  Lunch and snacks will be provided by Girl Scouts.</p>
+        <p >Please bring your own laptop so you can work on your projects! We have a few loaner laptops reserved for those who have limited access to tech. You may also want to bring a water bottle.
+                  Breakfast, lunch, and dinner will be provided.</p>
         </div>
 
-        <button style={{fontSize: '1.25rem'}}>How secure is this event?</button>
+        <button style={{fontSize: '1.5rem'}}>How secure is this event?</button>
         <div className={panel}>
-        <p>Alpine will be supervised by background-checked staff and overseen by
-            security staff 24/7.</p>
+        <p>Alpine will be supervised by Bill employees and the organizers in an extremely secure venue.</p>
         </div>
 
-        <button style={{fontSize: '1.25rem'}}>Who can my parents/guardians reach out to with their concerns?</button>
+        <button style={{fontSize: '1.5rem'}}>Who can my parents/guardians reach out to with their concerns?</button>
         <div className={panel}>
-        <p>They can reach out to us at{' '}
-            <a href="mailto:horizon@hackclub.com">horizon@hackclub.com</a>{' '}
+        <p>They can reach out to Abby at{' '}
+            <a href="mailto:abby@hackclub.com">abby@hackclub.com</a>{' '}
             and we'll make sure to answer all their questions.</p>
         </div>
       </div>
