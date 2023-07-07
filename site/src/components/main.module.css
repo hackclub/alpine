@@ -144,7 +144,11 @@ a {
         margin-bottom: 1rem;
     }    
     .header h2 {
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }    
+    p {
+        font-size: 1.25rem;
+    }
 }
 
